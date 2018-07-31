@@ -37,6 +37,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/clover/proprietary/etc/permissions/qti_libpermissions.xml:system/etc/permissions/qti_libpermissions.xml \
     vendor/xiaomi/clover/proprietary/etc/permissions/qti_permissions.xml:system/etc/permissions/qti_permissions.xml \
     vendor/xiaomi/clover/proprietary/etc/permissions/telephonyservice.xml:system/etc/permissions/telephonyservice.xml \
+    vendor/xiaomi/clover/proprietary/vendor/etc/permissions/vendor-qti-hardware-alarm.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/vendor-qti-hardware-alarm.xml \
     vendor/xiaomi/clover/proprietary/etc/wfdconfig.xml:system/etc/wfdconfig.xml \
     vendor/xiaomi/clover/proprietary/etc/wfdconfigsink.xml:system/etc/wfdconfigsink.xml \
     vendor/xiaomi/clover/proprietary/framework/QtiTelephonyServicelibrary.jar:system/framework/QtiTelephonyServicelibrary.jar \
@@ -219,6 +220,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/clover/proprietary/vendor/bin/hw/vendor.display.color@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.display.color@1.0-service \
     vendor/xiaomi/clover/proprietary/vendor/bin/hw/vendor.qti.esepowermanager@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.qti.esepowermanager@1.0-service \
     vendor/xiaomi/clover/proprietary/vendor/bin/hw/vendor.qti.gnss@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.qti.gnss@1.0-service \
+    vendor/xiaomi/clover/proprietary/vendor/bin/hw/vendor.qti.hardware.alarm@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.qti.hardware.alarm@1.0-service \
     vendor/xiaomi/clover/proprietary/vendor/bin/hw/vendor.qti.hardware.perf@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.qti.hardware.perf@1.0-service \
     vendor/xiaomi/clover/proprietary/vendor/bin/hw/vendor.qti.hardware.qdutils_disp@1.0-service-qti:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.qti.hardware.qdutils_disp@1.0-service-qti \
     vendor/xiaomi/clover/proprietary/vendor/bin/hw/vendor.qti.hardware.qteeconnector@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.qti.hardware.qteeconnector@1.0-service \
@@ -318,12 +320,14 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/clover/proprietary/vendor/etc/init/vendor.display.color@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.display.color@1.0-service.rc \
     vendor/xiaomi/clover/proprietary/vendor/etc/init/vendor.qti.esepowermanager@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.esepowermanager@1.0-service.rc \
     vendor/xiaomi/clover/proprietary/vendor/etc/init/vendor.qti.gnss@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.gnss@1.0-service.rc \
+    vendor/xiaomi/clover/proprietary/vendor/etc/init/vendor.qti.hardware.alarm@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.alarm@1.0-service.rc \
     vendor/xiaomi/clover/proprietary/vendor/etc/init/vendor.qti.hardware.perf@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.perf@1.0-service.rc \
     vendor/xiaomi/clover/proprietary/vendor/etc/init/vendor.qti.hardware.qdutils_disp@1.0-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.qdutils_disp@1.0-service-qti.rc \
     vendor/xiaomi/clover/proprietary/vendor/etc/init/vendor.qti.hardware.qteeconnector@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.qteeconnector@1.0-service.rc \
     vendor/xiaomi/clover/proprietary/vendor/etc/init/vendor.qti.hardware.tui_comm@1.0-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.tui_comm@1.0-service-qti.rc \
     vendor/xiaomi/clover/proprietary/vendor/etc/perf/perfboostsconfig.xml:$(TARGET_COPY_OUT_VENDOR)/etc/perf/perfboostsconfig.xml \
     vendor/xiaomi/clover/proprietary/vendor/etc/qdcm_calib_data_NT51021_BOE_BOE.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_NT51021_BOE_BOE.xml \
+    vendor/xiaomi/clover/proprietary/vendor/etc/qdcm_calib_data_NT51021_BOE_BOE10.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_NT51021_BOE_BOE10.xml \
     vendor/xiaomi/clover/proprietary/vendor/etc/qvop/antispoofing.bin:$(TARGET_COPY_OUT_VENDOR)/etc/qvop/antispoofing.bin \
     vendor/xiaomi/clover/proprietary/vendor/etc/qvop/cmudict.bin:$(TARGET_COPY_OUT_VENDOR)/etc/qvop/cmudict.bin \
     vendor/xiaomi/clover/proprietary/vendor/etc/qvop/noisesample.bin:$(TARGET_COPY_OUT_VENDOR)/etc/qvop/noisesample.bin \
@@ -375,6 +379,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/clover/proprietary/vendor/firmware/tas2557s_uCDSP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/tas2557s_uCDSP.bin \
     vendor/xiaomi/clover/proprietary/vendor/firmware/tas2557s_uCDSP_d9p.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/tas2557s_uCDSP_d9p.bin \
     vendor/xiaomi/clover/proprietary/vendor/framework/qti-vzw-ims-internal.jar:$(TARGET_COPY_OUT_VENDOR)/framework/qti-vzw-ims-internal.jar \
+    vendor/xiaomi/clover/proprietary/vendor/framework/vendor.qti.hardware.alarm-V1.0-java.jar:$(TARGET_COPY_OUT_VENDOR)/framework/vendor.qti.hardware.alarm-V1.0-java.jar \
     vendor/xiaomi/clover/proprietary/vendor/lib/com.qualcomm.qti.ant@1.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/com.qualcomm.qti.ant@1.0_vendor.so \
     vendor/xiaomi/clover/proprietary/vendor/lib/com.qualcomm.qti.dpm.api@1.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/com.qualcomm.qti.dpm.api@1.0_vendor.so \
     vendor/xiaomi/clover/proprietary/vendor/lib/com.qualcomm.qti.imscmservice@1.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/com.qualcomm.qti.imscmservice@1.0_vendor.so \
@@ -456,6 +461,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/clover/proprietary/vendor/lib/libUserAgent.so:$(TARGET_COPY_OUT_VENDOR)/lib/libUserAgent.so \
     vendor/xiaomi/clover/proprietary/vendor/lib/libXMFD_AgeGender.so:$(TARGET_COPY_OUT_VENDOR)/lib/libXMFD_AgeGender.so \
     vendor/xiaomi/clover/proprietary/vendor/lib/lib_drplugin_server.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib_drplugin_server.so \
+    vendor/xiaomi/clover/proprietary/vendor/lib/lib_lowlight.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib_lowlight.so \
     vendor/xiaomi/clover/proprietary/vendor/lib/lib_remote_simlock.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib_remote_simlock.so \
     vendor/xiaomi/clover/proprietary/vendor/lib/libacdb-fts.so:$(TARGET_COPY_OUT_VENDOR)/lib/libacdb-fts.so \
     vendor/xiaomi/clover/proprietary/vendor/lib/libacdbloader.so:$(TARGET_COPY_OUT_VENDOR)/lib/libacdbloader.so \
@@ -494,27 +500,42 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/clover/proprietary/vendor/lib/libchromatix_csidtg_zsl_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_csidtg_zsl_preview.so \
     vendor/xiaomi/clover/proprietary/vendor/lib/libchromatix_ov13855_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov13855_common.so \
     vendor/xiaomi/clover/proprietary/vendor/lib/libchromatix_ov13855_cpp_ds_chromatix.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov13855_cpp_ds_chromatix.so \
+    vendor/xiaomi/clover/proprietary/vendor/lib/libchromatix_ov13855_cpp_ds_chromatix_d9.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov13855_cpp_ds_chromatix_d9.so \
     vendor/xiaomi/clover/proprietary/vendor/lib/libchromatix_ov13855_cpp_ds_chromatix_video_call.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov13855_cpp_ds_chromatix_video_call.so \
     vendor/xiaomi/clover/proprietary/vendor/lib/libchromatix_ov13855_cpp_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov13855_cpp_hfr_120.so \
     vendor/xiaomi/clover/proprietary/vendor/lib/libchromatix_ov13855_cpp_hfr_60.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov13855_cpp_hfr_60.so \
     vendor/xiaomi/clover/proprietary/vendor/lib/libchromatix_ov13855_cpp_hfr_90.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov13855_cpp_hfr_90.so \
+    vendor/xiaomi/clover/proprietary/vendor/lib/libchromatix_ov13855_cpp_hfr_hht_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov13855_cpp_hfr_hht_120.so \
+    vendor/xiaomi/clover/proprietary/vendor/lib/libchromatix_ov13855_cpp_hfr_hht_60.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov13855_cpp_hfr_hht_60.so \
+    vendor/xiaomi/clover/proprietary/vendor/lib/libchromatix_ov13855_cpp_hfr_hht_90.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov13855_cpp_hfr_hht_90.so \
     vendor/xiaomi/clover/proprietary/vendor/lib/libchromatix_ov13855_cpp_liveshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov13855_cpp_liveshot.so \
+    vendor/xiaomi/clover/proprietary/vendor/lib/libchromatix_ov13855_cpp_liveshot_d9.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov13855_cpp_liveshot_d9.so \
     vendor/xiaomi/clover/proprietary/vendor/lib/libchromatix_ov13855_cpp_liveshot_video_call.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov13855_cpp_liveshot_video_call.so \
     vendor/xiaomi/clover/proprietary/vendor/lib/libchromatix_ov13855_cpp_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov13855_cpp_preview.so \
+    vendor/xiaomi/clover/proprietary/vendor/lib/libchromatix_ov13855_cpp_preview_d9.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov13855_cpp_preview_d9.so \
     vendor/xiaomi/clover/proprietary/vendor/lib/libchromatix_ov13855_cpp_preview_video_call.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov13855_cpp_preview_video_call.so \
     vendor/xiaomi/clover/proprietary/vendor/lib/libchromatix_ov13855_cpp_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov13855_cpp_snapshot.so \
+    vendor/xiaomi/clover/proprietary/vendor/lib/libchromatix_ov13855_cpp_snapshot_d9.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov13855_cpp_snapshot_d9.so \
+    vendor/xiaomi/clover/proprietary/vendor/lib/libchromatix_ov13855_cpp_snapshot_hht.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov13855_cpp_snapshot_hht.so \
     vendor/xiaomi/clover/proprietary/vendor/lib/libchromatix_ov13855_cpp_snapshot_video_call.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov13855_cpp_snapshot_video_call.so \
+    vendor/xiaomi/clover/proprietary/vendor/lib/libchromatix_ov13855_cpp_snapshot_video_hht_call.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov13855_cpp_snapshot_video_hht_call.so \
     vendor/xiaomi/clover/proprietary/vendor/lib/libchromatix_ov13855_cpp_us_chromatix.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov13855_cpp_us_chromatix.so \
+    vendor/xiaomi/clover/proprietary/vendor/lib/libchromatix_ov13855_cpp_us_chromatix_d9.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov13855_cpp_us_chromatix_d9.so \
     vendor/xiaomi/clover/proprietary/vendor/lib/libchromatix_ov13855_cpp_us_chromatix_video_call.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov13855_cpp_us_chromatix_video_call.so \
     vendor/xiaomi/clover/proprietary/vendor/lib/libchromatix_ov13855_cpp_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov13855_cpp_video.so \
+    vendor/xiaomi/clover/proprietary/vendor/lib/libchromatix_ov13855_cpp_video_d9.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov13855_cpp_video_d9.so \
     vendor/xiaomi/clover/proprietary/vendor/lib/libchromatix_ov13855_cpp_video_full.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov13855_cpp_video_full.so \
+    vendor/xiaomi/clover/proprietary/vendor/lib/libchromatix_ov13855_cpp_video_full_d9.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov13855_cpp_video_full_d9.so \
     vendor/xiaomi/clover/proprietary/vendor/lib/libchromatix_ov13855_cpp_video_full_video_call.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov13855_cpp_video_full_video_call.so \
     vendor/xiaomi/clover/proprietary/vendor/lib/libchromatix_ov13855_cpp_video_video_call.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov13855_cpp_video_video_call.so \
     vendor/xiaomi/clover/proprietary/vendor/lib/libchromatix_ov13855_default_preview_bu64297.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov13855_default_preview_bu64297.so \
+    vendor/xiaomi/clover/proprietary/vendor/lib/libchromatix_ov13855_default_preview_bu64297_d9.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov13855_default_preview_bu64297_d9.so \
     vendor/xiaomi/clover/proprietary/vendor/lib/libchromatix_ov13855_default_preview_bu64297_video_call.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov13855_default_preview_bu64297_video_call.so \
     vendor/xiaomi/clover/proprietary/vendor/lib/libchromatix_ov13855_default_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov13855_default_video.so \
     vendor/xiaomi/clover/proprietary/vendor/lib/libchromatix_ov13855_default_video_bu64297.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov13855_default_video_bu64297.so \
+    vendor/xiaomi/clover/proprietary/vendor/lib/libchromatix_ov13855_default_video_bu64297_d9.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov13855_default_video_bu64297_d9.so \
     vendor/xiaomi/clover/proprietary/vendor/lib/libchromatix_ov13855_default_video_bu64297_video_call.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov13855_default_video_bu64297_video_call.so \
+    vendor/xiaomi/clover/proprietary/vendor/lib/libchromatix_ov13855_default_video_d9.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov13855_default_video_d9.so \
     vendor/xiaomi/clover/proprietary/vendor/lib/libchromatix_ov13855_default_video_video_call.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov13855_default_video_video_call.so \
     vendor/xiaomi/clover/proprietary/vendor/lib/libchromatix_ov13855_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov13855_hfr_120.so \
     vendor/xiaomi/clover/proprietary/vendor/lib/libchromatix_ov13855_hfr_120_bu64297.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov13855_hfr_120_bu64297.so \
@@ -523,39 +544,60 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/clover/proprietary/vendor/lib/libchromatix_ov13855_hfr_90.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov13855_hfr_90.so \
     vendor/xiaomi/clover/proprietary/vendor/lib/libchromatix_ov13855_hfr_90_bu64297.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov13855_hfr_90_bu64297.so \
     vendor/xiaomi/clover/proprietary/vendor/lib/libchromatix_ov13855_liveshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov13855_liveshot.so \
+    vendor/xiaomi/clover/proprietary/vendor/lib/libchromatix_ov13855_liveshot_d9.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov13855_liveshot_d9.so \
     vendor/xiaomi/clover/proprietary/vendor/lib/libchromatix_ov13855_liveshot_video_call.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov13855_liveshot_video_call.so \
     vendor/xiaomi/clover/proprietary/vendor/lib/libchromatix_ov13855_postproc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov13855_postproc.so \
     vendor/xiaomi/clover/proprietary/vendor/lib/libchromatix_ov13855_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov13855_preview.so \
+    vendor/xiaomi/clover/proprietary/vendor/lib/libchromatix_ov13855_preview_d9.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov13855_preview_d9.so \
     vendor/xiaomi/clover/proprietary/vendor/lib/libchromatix_ov13855_preview_video_call.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov13855_preview_video_call.so \
     vendor/xiaomi/clover/proprietary/vendor/lib/libchromatix_ov13855_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov13855_snapshot.so \
+    vendor/xiaomi/clover/proprietary/vendor/lib/libchromatix_ov13855_snapshot_d9.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov13855_snapshot_d9.so \
     vendor/xiaomi/clover/proprietary/vendor/lib/libchromatix_ov13855_snapshot_video_call.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov13855_snapshot_video_call.so \
     vendor/xiaomi/clover/proprietary/vendor/lib/libchromatix_ov13855_video_full.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov13855_video_full.so \
+    vendor/xiaomi/clover/proprietary/vendor/lib/libchromatix_ov13855_video_full_d9.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov13855_video_full_d9.so \
     vendor/xiaomi/clover/proprietary/vendor/lib/libchromatix_ov13855_video_full_video_call.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov13855_video_full_video_call.so \
     vendor/xiaomi/clover/proprietary/vendor/lib/libchromatix_ov13855_zsl_preview_bu64297.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov13855_zsl_preview_bu64297.so \
+    vendor/xiaomi/clover/proprietary/vendor/lib/libchromatix_ov13855_zsl_preview_bu64297_d9.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov13855_zsl_preview_bu64297_d9.so \
     vendor/xiaomi/clover/proprietary/vendor/lib/libchromatix_ov13855_zsl_preview_bu64297_video_call.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov13855_zsl_preview_bu64297_video_call.so \
     vendor/xiaomi/clover/proprietary/vendor/lib/libchromatix_ov13855_zsl_video_bu64297.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov13855_zsl_video_bu64297.so \
+    vendor/xiaomi/clover/proprietary/vendor/lib/libchromatix_ov13855_zsl_video_bu64297_d9.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov13855_zsl_video_bu64297_d9.so \
     vendor/xiaomi/clover/proprietary/vendor/lib/libchromatix_ov13855_zsl_video_bu64297_video_call.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov13855_zsl_video_bu64297_video_call.so \
     vendor/xiaomi/clover/proprietary/vendor/lib/libchromatix_s5k5e8_a3_zsl_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k5e8_a3_zsl_preview.so \
+    vendor/xiaomi/clover/proprietary/vendor/lib/libchromatix_s5k5e8_a3_zsl_preview_d9.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k5e8_a3_zsl_preview_d9.so \
     vendor/xiaomi/clover/proprietary/vendor/lib/libchromatix_s5k5e8_a3_zsl_preview_video_call.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k5e8_a3_zsl_preview_video_call.so \
     vendor/xiaomi/clover/proprietary/vendor/lib/libchromatix_s5k5e8_a3_zsl_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k5e8_a3_zsl_video.so \
+    vendor/xiaomi/clover/proprietary/vendor/lib/libchromatix_s5k5e8_a3_zsl_video_d9.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k5e8_a3_zsl_video_d9.so \
     vendor/xiaomi/clover/proprietary/vendor/lib/libchromatix_s5k5e8_a3_zsl_video_video_call.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k5e8_a3_zsl_video_video_call.so \
     vendor/xiaomi/clover/proprietary/vendor/lib/libchromatix_s5k5e8_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k5e8_common.so \
+    vendor/xiaomi/clover/proprietary/vendor/lib/libchromatix_s5k5e8_common_d9.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k5e8_common_d9.so \
     vendor/xiaomi/clover/proprietary/vendor/lib/libchromatix_s5k5e8_cpp_liveshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k5e8_cpp_liveshot.so \
+    vendor/xiaomi/clover/proprietary/vendor/lib/libchromatix_s5k5e8_cpp_liveshot_d9.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k5e8_cpp_liveshot_d9.so \
     vendor/xiaomi/clover/proprietary/vendor/lib/libchromatix_s5k5e8_cpp_liveshot_video_call.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k5e8_cpp_liveshot_video_call.so \
     vendor/xiaomi/clover/proprietary/vendor/lib/libchromatix_s5k5e8_cpp_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k5e8_cpp_preview.so \
+    vendor/xiaomi/clover/proprietary/vendor/lib/libchromatix_s5k5e8_cpp_preview_d9.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k5e8_cpp_preview_d9.so \
     vendor/xiaomi/clover/proprietary/vendor/lib/libchromatix_s5k5e8_cpp_preview_video_call.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k5e8_cpp_preview_video_call.so \
     vendor/xiaomi/clover/proprietary/vendor/lib/libchromatix_s5k5e8_cpp_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k5e8_cpp_snapshot.so \
     vendor/xiaomi/clover/proprietary/vendor/lib/libchromatix_s5k5e8_cpp_snapshot_4m.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k5e8_cpp_snapshot_4m.so \
+    vendor/xiaomi/clover/proprietary/vendor/lib/libchromatix_s5k5e8_cpp_snapshot_4m_d9.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k5e8_cpp_snapshot_4m_d9.so \
     vendor/xiaomi/clover/proprietary/vendor/lib/libchromatix_s5k5e8_cpp_snapshot_4m_video_call.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k5e8_cpp_snapshot_4m_video_call.so \
+    vendor/xiaomi/clover/proprietary/vendor/lib/libchromatix_s5k5e8_cpp_snapshot_4m_video_hht_call.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k5e8_cpp_snapshot_4m_video_hht_call.so \
+    vendor/xiaomi/clover/proprietary/vendor/lib/libchromatix_s5k5e8_cpp_snapshot_d9.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k5e8_cpp_snapshot_d9.so \
+    vendor/xiaomi/clover/proprietary/vendor/lib/libchromatix_s5k5e8_cpp_snapshot_hht.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k5e8_cpp_snapshot_hht.so \
     vendor/xiaomi/clover/proprietary/vendor/lib/libchromatix_s5k5e8_cpp_snapshot_video_call.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k5e8_cpp_snapshot_video_call.so \
+    vendor/xiaomi/clover/proprietary/vendor/lib/libchromatix_s5k5e8_cpp_snapshot_video_hht_call.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k5e8_cpp_snapshot_video_hht_call.so \
     vendor/xiaomi/clover/proprietary/vendor/lib/libchromatix_s5k5e8_cpp_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k5e8_cpp_video.so \
+    vendor/xiaomi/clover/proprietary/vendor/lib/libchromatix_s5k5e8_cpp_video_d9.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k5e8_cpp_video_d9.so \
     vendor/xiaomi/clover/proprietary/vendor/lib/libchromatix_s5k5e8_cpp_video_video_call.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k5e8_cpp_video_video_call.so \
     vendor/xiaomi/clover/proprietary/vendor/lib/libchromatix_s5k5e8_postproc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k5e8_postproc.so \
+    vendor/xiaomi/clover/proprietary/vendor/lib/libchromatix_s5k5e8_postproc_d9.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k5e8_postproc_d9.so \
     vendor/xiaomi/clover/proprietary/vendor/lib/libchromatix_s5k5e8_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k5e8_preview.so \
+    vendor/xiaomi/clover/proprietary/vendor/lib/libchromatix_s5k5e8_preview_d9.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k5e8_preview_d9.so \
     vendor/xiaomi/clover/proprietary/vendor/lib/libchromatix_s5k5e8_preview_video_call.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k5e8_preview_video_call.so \
     vendor/xiaomi/clover/proprietary/vendor/lib/libchromatix_s5k5e8_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k5e8_snapshot.so \
+    vendor/xiaomi/clover/proprietary/vendor/lib/libchromatix_s5k5e8_snapshot_d9.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k5e8_snapshot_d9.so \
     vendor/xiaomi/clover/proprietary/vendor/lib/libchromatix_s5k5e8_snapshot_video_call.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k5e8_snapshot_video_call.so \
     vendor/xiaomi/clover/proprietary/vendor/lib/libchromatix_s5k5e8_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k5e8_video.so \
+    vendor/xiaomi/clover/proprietary/vendor/lib/libchromatix_s5k5e8_video_d9.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k5e8_video_d9.so \
     vendor/xiaomi/clover/proprietary/vendor/lib/libchromatix_s5k5e8_video_video_call.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k5e8_video_video_call.so \
     vendor/xiaomi/clover/proprietary/vendor/lib/libcne.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcne.so \
     vendor/xiaomi/clover/proprietary/vendor/lib/libcneapiclient.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcneapiclient.so \
@@ -937,6 +979,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/clover/proprietary/vendor/lib64/hw/sound_trigger.primary.sdm660.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/sound_trigger.primary.sdm660.so \
     vendor/xiaomi/clover/proprietary/vendor/lib64/hw/vendor.qti.esepowermanager@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.qti.esepowermanager@1.0-impl.so \
     vendor/xiaomi/clover/proprietary/vendor/lib64/hw/vendor.qti.gnss@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.qti.gnss@1.0-impl.so \
+    vendor/xiaomi/clover/proprietary/vendor/lib64/hw/vendor.qti.hardware.alarm@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.qti.hardware.alarm@1.0-impl.so \
     vendor/xiaomi/clover/proprietary/vendor/lib64/hw/vendor.qti.hardware.iop@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.qti.hardware.iop@1.0-impl.so \
     vendor/xiaomi/clover/proprietary/vendor/lib64/hw/vendor.qti.hardware.qteeconnector@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.qti.hardware.qteeconnector@1.0-impl.so \
     vendor/xiaomi/clover/proprietary/vendor/lib64/hw/vulkan.sdm660.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vulkan.sdm660.so \
@@ -1185,6 +1228,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/clover/proprietary/vendor/lib64/vendor.display.postproc@1.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.display.postproc@1.0_vendor.so \
     vendor/xiaomi/clover/proprietary/vendor/lib64/vendor.qti.esepowermanager@1.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.esepowermanager@1.0_vendor.so \
     vendor/xiaomi/clover/proprietary/vendor/lib64/vendor.qti.gnss@1.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.gnss@1.0_vendor.so \
+    vendor/xiaomi/clover/proprietary/vendor/lib64/vendor.qti.hardware.alarm@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.alarm@1.0.so \
     vendor/xiaomi/clover/proprietary/vendor/lib64/vendor.qti.hardware.data.latency@1.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.data.latency@1.0_vendor.so \
     vendor/xiaomi/clover/proprietary/vendor/lib64/vendor.qti.hardware.fm@1.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.fm@1.0_vendor.so \
     vendor/xiaomi/clover/proprietary/vendor/lib64/vendor.qti.hardware.improvetouch.blobmanager@1.0-service.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.improvetouch.blobmanager@1.0-service.so \
@@ -1235,6 +1279,7 @@ PRODUCT_PACKAGES += \
     CNEService \
     dpmserviceapp \
     qcrilmsgtunnel \
+    PowerOffAlarm \
     SVIService \
     TimeService \
     colorservice \

@@ -99,6 +99,7 @@ special_mode_mask values:
       <ISPVideo>ov13855_video_full</ISPVideo>
       <CPPPreview>ov13855_cpp_preview</CPPPreview>
       <CPPSnapshot>ov13855_cpp_snapshot</CPPSnapshot>
+      <CPPHht>ov13855_cpp_snapshot_hht</CPPHht>
       <CPPVideo>ov13855_cpp_video_full</CPPVideo>
       <CPPLiveshot>ov13855_cpp_snapshot</CPPLiveshot>
       <A3Preview>ov13855_zsl_preview_bu64297</A3Preview>
@@ -110,6 +111,7 @@ special_mode_mask values:
       <ISPVideo>ov13855_video_full</ISPVideo>
       <CPPPreview>ov13855_cpp_preview</CPPPreview>
       <CPPSnapshot>ov13855_cpp_snapshot</CPPSnapshot>
+      <CPPHht>ov13855_cpp_snapshot_hht</CPPHht>
       <CPPVideo>ov13855_cpp_video_full</CPPVideo>
       <CPPLiveshot>ov13855_cpp_snapshot</CPPLiveshot>
       <A3Preview>ov13855_zsl_preview_bu64297</A3Preview>
@@ -121,6 +123,7 @@ special_mode_mask values:
       <ISPVideo>ov13855_default_video</ISPVideo>
       <CPPPreview>ov13855_cpp_preview</CPPPreview>
       <CPPSnapshot>ov13855_cpp_snapshot</CPPSnapshot>
+      <CPPHht>ov13855_cpp_snapshot_hht</CPPHht>
       <CPPVideo>ov13855_cpp_video</CPPVideo>
       <CPPLiveshot>ov13855_cpp_preview</CPPLiveshot>
       <A3Preview>ov13855_default_preview_bu64297</A3Preview>
@@ -132,6 +135,7 @@ special_mode_mask values:
       <ISPVideo>ov13855_default_video</ISPVideo>
       <CPPPreview>ov13855_cpp_preview</CPPPreview>
       <CPPSnapshot>ov13855_cpp_snapshot</CPPSnapshot>
+      <CPPHht>ov13855_cpp_snapshot_hht</CPPHht>
       <CPPVideo>ov13855_cpp_video</CPPVideo>
       <CPPLiveshot>ov13855_cpp_preview</CPPLiveshot>
       <A3Preview>ov13855_default_preview_bu64297</A3Preview>
@@ -143,6 +147,7 @@ special_mode_mask values:
       <ISPVideo>ov13855_hfr_60</ISPVideo>
       <CPPPreview>ov13855_cpp_hfr_60</CPPPreview>
       <CPPSnapshot>ov13855_cpp_hfr_60</CPPSnapshot>
+      <CPPHht>ov13855_cpp_hfr_hht_60</CPPHht>
       <CPPVideo>ov13855_cpp_hfr_60</CPPVideo>
       <CPPLiveshot>ov13855_cpp_hfr_60</CPPLiveshot>
       <A3Preview>ov13855_hfr_60_bu64297</A3Preview>
@@ -154,6 +159,7 @@ special_mode_mask values:
       <ISPVideo>ov13855_hfr_90</ISPVideo>
       <CPPPreview>ov13855_cpp_hfr_90</CPPPreview>
       <CPPSnapshot>ov13855_cpp_hfr_90</CPPSnapshot>
+      <CPPHht>ov13855_cpp_hfr_hht_90</CPPHht>
       <CPPVideo>ov13855_cpp_hfr_90</CPPVideo>
       <CPPLiveshot>ov13855_cpp_hfr_90</CPPLiveshot>
       <A3Preview>ov13855_hfr_90_bu64297</A3Preview>
@@ -165,6 +171,7 @@ special_mode_mask values:
       <ISPVideo>ov13855_hfr_120</ISPVideo>
       <CPPPreview>ov13855_cpp_hfr_120</CPPPreview>
       <CPPSnapshot>ov13855_cpp_hfr_120</CPPSnapshot>
+      <CPPHht>ov13855_cpp_hfr_hht_120</CPPHht>
       <CPPVideo>ov13855_cpp_hfr_120</CPPVideo>
       <CPPLiveshot>ov13855_cpp_hfr_120</CPPLiveshot>
       <A3Preview>ov13855_hfr_120_bu64297</A3Preview>
@@ -177,6 +184,7 @@ special_mode_mask values:
       <ISPVideo>ov13855_video_full_video_call</ISPVideo>
       <CPPPreview>ov13855_cpp_preview_video_call</CPPPreview>
       <CPPSnapshot>ov13855_cpp_snapshot_video_call</CPPSnapshot>
+	  <CPPHht>ov13855_cpp_snapshot_video_hht_call</CPPHht>
       <CPPVideo>ov13855_cpp_video_full_video_call</CPPVideo>
       <CPPLiveshot>ov13855_cpp_snapshot_video_call</CPPLiveshot>
       <A3Preview>ov13855_zsl_preview_bu64297_video_call</A3Preview>
@@ -188,6 +196,7 @@ special_mode_mask values:
       <ISPVideo>ov13855_video_full_video_call</ISPVideo>
       <CPPPreview>ov13855_cpp_preview_video_call</CPPPreview>
       <CPPSnapshot>ov13855_cpp_snapshot_video_call</CPPSnapshot>
+      <CPPHht>ov13855_cpp_snapshot_video_hht_call</CPPHht>
       <CPPVideo>ov13855_cpp_video_full_video_call</CPPVideo>
       <CPPLiveshot>ov13855_cpp_snapshot_video_call</CPPLiveshot>
       <A3Preview>ov13855_zsl_preview_bu64297_video_call</A3Preview>
@@ -199,6 +208,7 @@ special_mode_mask values:
       <ISPVideo>ov13855_default_video_video_call</ISPVideo>
       <CPPPreview>ov13855_cpp_preview_video_call</CPPPreview>
       <CPPSnapshot>ov13855_cpp_snapshot_video_call</CPPSnapshot>
+      <CPPHht>ov13855_cpp_snapshot_video_hht_call</CPPHht>
       <CPPVideo>ov13855_cpp_video_video_call</CPPVideo>
       <CPPLiveshot>ov13855_cpp_preview_video_call</CPPLiveshot>
       <A3Preview>ov13855_default_preview_bu64297_video_call</A3Preview>
@@ -210,6 +220,7 @@ special_mode_mask values:
       <ISPVideo>ov13855_default_video_video_call</ISPVideo>
       <CPPPreview>ov13855_cpp_preview_video_call</CPPPreview>
       <CPPSnapshot>ov13855_cpp_snapshot_video_call</CPPSnapshot>
+      <CPPHht>ov13855_cpp_snapshot_video_hht_call</CPPHht>
       <CPPVideo>ov13855_cpp_video_video_call</CPPVideo>
       <CPPLiveshot>ov13855_cpp_preview_video_call</CPPLiveshot>
       <A3Preview>ov13855_default_preview_bu64297_video_call</A3Preview>
@@ -250,7 +261,50 @@ special_mode_mask values:
 	  <A3Video>ov13855_hfr_120_bu64297_video_call</A3Video>
     </ChromatixName>
 -->
-<!-- [zhangdong5@huaqin.com] Add for WECHAT\QQ .etc 3rd app video call end -->
+	<ChromatixName sensor_resolution_index="0" special_mode_mask="|D9_PARAM">
+	  <ISPPreview>ov13855_preview_d9</ISPPreview>
+	  <ISPSnapshot>ov13855_snapshot_d9</ISPSnapshot>
+	  <ISPVideo>ov13855_video_full_d9</ISPVideo>
+	  <CPPPreview>ov13855_cpp_preview_d9</CPPPreview>
+	  <CPPSnapshot>ov13855_cpp_snapshot_d9</CPPSnapshot>
+	  <CPPVideo>ov13855_cpp_video_full_d9</CPPVideo>
+	  <CPPLiveshot>ov13855_cpp_snapshot_d9</CPPLiveshot>
+	  <A3Preview>ov13855_zsl_preview_bu64297_d9</A3Preview>
+	  <A3Video>ov13855_zsl_video_bu64297_d9</A3Video>
+	</ChromatixName>
+	<ChromatixName sensor_resolution_index="1" special_mode_mask="|D9_PARAM">
+ 	  <ISPPreview>ov13855_preview_d9</ISPPreview>
+ 	  <ISPSnapshot>ov13855_snapshot_d9</ISPSnapshot>
+ 	  <ISPVideo>ov13855_video_full_d9</ISPVideo>
+ 	  <CPPPreview>ov13855_cpp_preview_d9</CPPPreview>
+ 	  <CPPSnapshot>ov13855_cpp_snapshot_d9</CPPSnapshot>
+ 	  <CPPVideo>ov13855_cpp_video_full_d9</CPPVideo>
+ 	  <CPPLiveshot>ov13855_cpp_snapshot_d9</CPPLiveshot>
+ 	  <A3Preview>ov13855_zsl_preview_bu64297_d9</A3Preview>
+ 	  <A3Video>ov13855_zsl_video_bu64297_d9</A3Video>
+	</ChromatixName>
+	<ChromatixName sensor_resolution_index="2" special_mode_mask="|D9_PARAM">
+	  <ISPPreview>ov13855_preview_d9</ISPPreview>
+	  <ISPSnapshot>ov13855_snapshot_d9</ISPSnapshot>
+	  <ISPVideo>ov13855_default_video_d9</ISPVideo>
+	  <CPPPreview>ov13855_cpp_preview_d9</CPPPreview>
+	  <CPPSnapshot>ov13855_cpp_snapshot_d9</CPPSnapshot>
+	  <CPPVideo>ov13855_cpp_video_d9</CPPVideo>
+	  <CPPLiveshot>ov13855_cpp_preview_d9</CPPLiveshot>
+	  <A3Preview>ov13855_default_preview_bu64297_d9</A3Preview>
+	  <A3Video>ov13855_default_video_bu64297_d9</A3Video>
+	</ChromatixName>
+	<ChromatixName sensor_resolution_index="3" special_mode_mask="|D9_PARAM">
+	  <ISPPreview>ov13855_preview_d9</ISPPreview>
+	  <ISPSnapshot>ov13855_snapshot_d9</ISPSnapshot>
+	  <ISPVideo>ov13855_default_video_d9</ISPVideo>
+	  <CPPPreview>ov13855_cpp_preview_d9</CPPPreview>
+	  <CPPSnapshot>ov13855_cpp_snapshot_d9</CPPSnapshot>
+	  <CPPVideo>ov13855_cpp_video_d9</CPPVideo>
+	  <CPPLiveshot>ov13855_cpp_preview_d9</CPPLiveshot>
+	  <A3Preview>ov13855_default_preview_bu64297_d9</A3Preview>
+	  <A3Video>ov13855_default_video_bu64297_d9</A3Video>
+	</ChromatixName>
   </ResolutionChromatixInfo>
 </ChromatixConfigurationRoot>
 
