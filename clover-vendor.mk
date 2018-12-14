@@ -1280,4 +1280,5 @@ PRODUCT_PACKAGES += \
     ims \
     imssettings \
     com.qti.snapdragon.sdk.display \
-    qcrilhook
+    qcrilhook \
+    chargeonlymode
