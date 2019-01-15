@@ -105,7 +105,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/clover/proprietary/lib/libqti_performance.so:system/lib/libqti_performance.so \
     vendor/xiaomi/clover/proprietary/lib/librcc.so:system/lib/librcc.so \
     vendor/xiaomi/clover/proprietary/lib/liblistenjni.so:system/lib/liblistenjni.so \
- 	vendor/xiaomi/clover/proprietary/lib/liblistensoundmodel2.so:system/lib/liblistensoundmodel2.so \
+ 		vendor/xiaomi/clover/proprietary/lib/liblistensoundmodel2.so:system/lib/liblistensoundmodel2.so \
     vendor/xiaomi/clover/proprietary/lib/libsd_sdk_display.so:system/lib/libsd_sdk_display.so \
     vendor/xiaomi/clover/proprietary/lib/libsdm-disp-apis.so:system/lib/libsdm-disp-apis.so \
     vendor/xiaomi/clover/proprietary/lib/libtrueportrait.so:system/lib/libtrueportrait.so \
